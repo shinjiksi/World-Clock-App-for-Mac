@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		64A395A02F52CB4200C25C00 /* WorlClockIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 64A3959D2F52CB4200C25C00 /* WorlClockIcon.icon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		649BB3D92F26570A00510848 /* World Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A3959D2F52CB4200C25C00 /* WorlClockIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = WorlClockIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				649BB39D2F261D5900510848 /* World Clock */,
 				649BB3D92F26570A00510848 /* World Clock.app */,
+				64A3959D2F52CB4200C25C00 /* WorlClockIcon.icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +108,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A395A02F52CB4200C25C00 /* WorlClockIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +246,7 @@
 		649BB3A72F261D5B00510848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WorlClockIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -273,7 +280,7 @@
 		649BB3A82F261D5B00510848 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WorlClockIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
